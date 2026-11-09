@@ -1,0 +1,48 @@
+{
+  "name": "bee-queen-professional",
+  "private": true,
+  "version": "5.8.9",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:apk": "vite build && npx cap sync android && cd android && ./gradlew assembleDebug",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor-community/file-opener": "^6.0.0",
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/camera": "^6.0.2",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/clipboard": "^6.0.3",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/share": "^6.0.2",
+    "dexie": "^4.0.8",
+    "dexie-export-import": "^4.0.7",
+    "dexie-react-hooks": "^1.1.7",
+    "framer-motion": "^11.2.10",
+    "i18next": "^23.11.5",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "libphonenumber-js": "^1.11.3",
+    "lucide-react": "^0.395.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.2",
+    "react-router-dom": "^6.23.1",
+    "react-toastify": "^10.0.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^41.3.0",
+    "electron-builder": "^26.8.1",
+    "vite": "^5.3.1",
+    "wait-on": "^9.0.5"
+  }
+}

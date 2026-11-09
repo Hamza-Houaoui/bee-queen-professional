@@ -1,0 +1,16 @@
+
+# Auto-generated rules
+
+node_modules/
+dist/
+build/
+.gradle/
+.idea/
+.vscode/
+*.apk
+*.aab
+*.log
+.DS_Store
+*.env
+*.env.local
+local.properties

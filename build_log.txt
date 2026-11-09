@@ -1,0 +1,29 @@
+
+> bee-queen-professional@5.1.1 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 2114 modules transformed.
+x Build failed in 1.75s
+error during build:
+src/pages/Settings.jsx (13:7): "default" is not exported by "src/SyncEngine.js", imported by "src/pages/Settings.jsx".
+file: /home/hamza/Desktop/bee queen professional/src/pages/Settings.jsx:13:7
+
+11: import { Share } from '@capacitor/share';
+12: import { Capacitor } from '@capacitor/core';
+13: import SyncEngine from '../SyncEngine';
+           ^
+14: import { getLogs, clearLogs } from '../utils/logger';
+15: import { performTelegramBackup } from '../utils/telegram';
+
+    at getRollupError (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/parseAst.js:406:41)
+    at error (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/parseAst.js:402:42)
+    at Module.error (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:17384:16)
+    at Module.traceVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:17817:29)
+    at ModuleScope.findVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:15407:39)
+    at FunctionScope.findVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at FunctionBodyScope.findVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at ReturnValueScope.findVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at FunctionBodyScope.findVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)
+    at BlockScope.findVariable (file:///home/hamza/Desktop/bee%20queen%20professional/node_modules/rollup/dist/es/shared/node-entry.js:5676:38)

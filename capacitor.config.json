@@ -1,0 +1,13 @@
+{
+  "appId": "com.beequeen.professional",
+  "appName": "Bee Queen Pro",
+  "webDir": "dist",
+  "plugins": {
+    "Camera": { "presentationStyle": "fullscreen" }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}
